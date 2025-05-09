@@ -1,0 +1,26 @@
+.fit_outer {
+    max-width: 1888px;
+    margin: 0 auto;
+    padding: 80px 5px; 
+  }
+  
+  .fit_outer h3 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+.fit_wrap {
+    width: 1888px;
+    height: 768px;
+    margin: 0 auto;
+}
+s
+.fit_wrap > img {
+    width: 100%;
+    height: 100%;
+}
+
+
+

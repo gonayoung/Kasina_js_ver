@@ -1,0 +1,45 @@
+.navWrap {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav {
+    background-color: white;
+    opacity: 0.9;
+    padding: 5px;
+    width: 1209px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 300;
+    border: 1px solid #dcdcdc;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  .nav-kasina {
+    font-size: 21px !important; 
+    color: black !important;
+    margin: 0 20px;
+    line-height: 1;
+    padding-top: 5px;
+  }
+
+.nav > .navImg  {
+    padding-left: 20px;
+    margin: 5px 0px 0px 130px;
+}
+
+.nav > .navImg  > img {
+    width: 24px;
+    height: 24px;
+    margin: 0px 10px;
+}
+

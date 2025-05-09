@@ -1,0 +1,87 @@
+.lock-wrap {
+  display: flex;
+  flex-wrap: nowrap;        
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 1904px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  }
+  
+  .lock-left {
+    width: 940px;
+    position: relative;
+  }
+  
+  .lock-left strong {
+    display: block;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .lock-left img {
+    width: 100%;
+    height: 940px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .lock-right {
+    width: 940px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-top: 40px;
+  }
+  
+
+  .lock-right .img-box {
+    width: 464px;
+    height: 470px;
+    box-sizing: border-box;
+    padding: 0;
+    border: 1px solid #eee;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    margin: 2px;
+  }
+  
+  .lock-right .img-box img {
+    width: 100%;
+    height: 82%; 
+    object-fit: contain;
+    display: block;
+  }
+
+
+  .lock_text {
+    text-align: center;
+    padding: 0;
+  }
+  
+  .lock_text h5.brand {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 2px 0;
+    color:#212529;
+  }
+  
+  .lock_text p.subtitle {
+    font-size: 14px;
+    color: #222;
+    margin: 2px 0;
+  }
+  
+  .lock-box {
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    margin-top: 1px;
+  }

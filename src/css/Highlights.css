@@ -1,0 +1,37 @@
+.hi_wrap {
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+    gap: 10px;                 
+    margin: 0 auto;
+    max-width: 1200px;
+    flex-wrap: nowrap;         
+  }
+
+  .hi_outer {
+    max-width: 1904px;
+    margin: 0 auto;
+    padding: 0 10px; 
+  }
+  
+  .hi_outer > h3 {
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+  strong {
+    display: block;
+  }
+
+  .hi_1 {
+    text-align: center;
+  }
+  
+  .hi_1 img {
+    width: 624px;
+    height: 624px;
+    display: block;
+    margin-bottom: 5px;
+  }
+

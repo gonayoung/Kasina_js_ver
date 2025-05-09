@@ -1,0 +1,124 @@
+.bestitem-container {
+  width: 1888px;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+.bestitem-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.bestitem-header > strong {
+  font-size: 17px;
+}
+
+.view-all {
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+
+.bestitem-card {
+  width: calc(25% - 15px);
+  box-sizing: border-box;
+  padding: 5px;
+  text-align: center;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+
+.bestitem-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.brand {
+  font-weight: bold;
+  margin: 10px 0 5px;
+  font-size: ;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #111;
+  margin-bottom: 5px;
+}
+
+.price-box {
+  font-size: 15px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.original {
+  text-decoration: line-through;
+  color: #888;
+  margin-left: 5px;
+}
+
+.discount {
+  color: red;
+  margin-left: 5px;
+}
+
+.bestitem-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.bestitem-slide-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.bestitem-slide {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bestitem-card {
+  flex: 1;
+  max-width: 23%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.slide-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.slide-btn.left {
+  left: -15px;
+}
+
+.slide-btn.right {
+  right: -15px;
+}

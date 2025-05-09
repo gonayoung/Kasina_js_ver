@@ -1,0 +1,106 @@
+.american-wrap {
+  display: flex;
+  flex-wrap: nowrap;           
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 1904px;
+  margin: 0 auto;
+  padding-bottom:60px ;
+  }
+  
+  .american-left {
+    width: 940px;
+    position: relative;
+  }
+  
+  .american-left strong {
+    display: block;
+    padding-bottom: 20px;
+    text-align: left;
+  }
+
+  .american-left img {
+    width: 100%;
+    height: 940px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .american-left .info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .american-left .info strong {
+    display: block;
+    font-size: 20px;
+  }
+  
+  .american-left .info p {
+    font-size: 16px;
+  }
+  
+  .american-left .info .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .american-right {
+    width: 940px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-top: 40px;
+  }
+  
+
+  .img-box {
+    width: 464px;
+    height: 470px;
+    box-sizing: border-box;
+    padding: 0;
+    border: 1px solid #eee;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    margin: 2px;
+  }
+  
+  .img-box img {
+    width: 100%;
+    height: 82%; 
+    object-fit: contain;
+    display: block;
+  }
+  
+  .american_text {
+    text-align: center;
+    padding: 0;
+  }
+  
+  .american_text h5.brand {
+    font-weight: bold;
+    font-size: 15px;
+    color: #212529;
+    margin: 2px 0;
+  }
+  
+  .american_text p.subtitle {
+    font-size: 14px;
+    color: #222;
+    margin: 2px 0;
+  }
+  
+  .price-box {
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    margin-top: 2px;
+  }

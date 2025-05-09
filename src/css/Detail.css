@@ -1,0 +1,171 @@
+.detail-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .detail-top {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+  }
+  
+  /* 왼쪽 썸네일 + 메인 이미지 */
+  .detail-left {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .thumbnail-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80px;
+  }
+  
+  .thumbnail {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .thumbnail.active {
+    border: 2px solid black;
+  }
+  
+  .main-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-image img {
+    width: 100%;
+    max-width: 500px;
+    object-fit: contain;
+  }
+  
+  /* 오른쪽 상품 정보 */
+  .detail-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .brand {
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+  
+  .main-title {
+    font-size: 18px;
+    font-weight: bold;
+
+  }
+  
+  .desc {
+    color: black;
+    font-size: 15px;
+  }
+  
+  .price {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .membership {
+    font-size: 13px;
+    color: #777;
+  }
+
+  .membership > img {
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+  }
+  
+  .size-label {
+    margin-top: 14px;
+    font-weight: bold;
+  }
+  
+  .size-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+  }
+  
+  .size-btn {
+    padding: 8px 20px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .size-btn.selected {
+    border: 2px solid black;
+  }
+  
+  .button-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  
+  .bookmark-btn {
+    padding: 10px 14px;
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cart-btn {
+    flex: 1;
+    padding: 14px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .buy-btn {
+    flex: 1;
+    padding: 14px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  /* 하단 이미지 나열 */
+  .bottom-gallery {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .bottom-image {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: block;
+  }

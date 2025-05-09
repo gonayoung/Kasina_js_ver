@@ -1,0 +1,91 @@
+.milo-wrap {
+  display: flex;
+  max-width: 1904px;
+  margin: 0 auto;
+  gap: 10px;
+  align-items: stretch; 
+  padding-bottom: 60px;
+  padding-left: 3px;
+  }
+  
+  /*왼쪽이미지*/
+  .milo-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .milo-header {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .milo-header strong {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+
+  .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    height: 950px;
+  }
+  
+  .item-box {
+    width: 466px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    text-align: center;
+  }
+  
+  .milo-left .grid-4 .item-box img {
+    width: 350px;
+    height: 340px;
+  }
+  
+
+  .text-wrap h5 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #212529;
+  }
+  
+  .text-wrap p {
+    font-size: 14px;
+    color: #222;
+    margin: 0 0 8px;
+  }
+  
+  .price-wrap > .price {
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+  }
+  
+
+  
+  /* 오른쪽 큰 이미지 */
+  .milo-right {
+    width: 940px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 940px;
+    margin-left: 5px;
+  }
+  
+  .milo-right img {
+    width: 100%;
+    height: 940px;
+    margin-top: 50px;
+  }
+
+
+
+
